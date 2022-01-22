@@ -7,11 +7,12 @@ casual.define('user', () => ({
   updated_at: casual.moment,
 }))
 
-
 const userData = []
 
 for (let i = 0; i < 20; ++i) {
   userData.push(casual.user)
 }
+
+// console.log(userData)
 
 module.exports = userData
